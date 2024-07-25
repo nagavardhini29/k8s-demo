@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: nagavardhini/k8s-demo:latest
+        image: nagavardhini/node-app:1.0
         ports:
         - containerPort: 3000
         env:
